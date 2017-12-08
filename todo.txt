@@ -1,0 +1,12 @@
+To Do
+----------
+
+Add Shake effect for incorrect creds / info
+Perhaps add email field to account creation to handle forgetting passwords
+Update Both E-R Diagram and Schema
+Create better stylesheet for success_reg page
+Move error checking into SQL triggers (create SQL package this can also be used for making test data)
+Look into animated transition between webpages
+Create Test data
+Plan out main app window
+

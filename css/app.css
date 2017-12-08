@@ -1,0 +1,230 @@
+.background {
+    background-image: url("../img/background.jpg");
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+.header{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    background-color: rgba(255, 250, 250, 0.3);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+.menu{
+    position: absolute;
+    text-align: center;
+    width: 15%;
+    height: 81%;
+    background-color: rgba(8, 8, 8, 0.3);
+    border-radius: 4px;
+    left: 10px;
+    margin-top: 10px;
+}
+.main_app{
+    position: absolute;
+    text-align: center;
+    width: 83%;
+    height: 81%;
+    background-color: rgba(255, 250, 250, 0.3);
+    border-radius: 4px;
+    left: 16.5%;
+    margin-top: 10px;
+}
+.discord{
+    position: absolute;
+    text-align: center;
+    width: 15%;
+    height: 81%;
+    background-color: rgba(8, 8, 8, 0.3);
+    border-radius: 4px;
+    right: 10px;
+    margin-top: 10px;
+}
+p{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+}
+a{
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(72, 152, 226);
+    background-color: rgba(8, 8, 8, 0.3);
+}
+b{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: rgb(245, 245, 245);
+    background-color: rgba(8, 8, 8, 0.3);
+}
+input[type=button]{
+    display: block;
+    background-color: rgba(93, 198, 247, 0.7);
+    width: 100%;
+    height: 15%;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    color: white;
+}
+input[type=button]:hover{
+    background-color: rgb(93, 198, 247);
+    width: 100%;
+    height: 15%;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    color: white;
+}
+.home_btn{
+    background-image: url("../img/home.png");
+    background-size: 30px;
+    background-position: 5%, 50%;
+    background-repeat: no-repeat;
+}
+.gather_btn{
+    background-image: url("../img/pickaxe.png");
+    background-size: 30px;
+    background-position: 5%, 50%;
+    background-repeat: no-repeat;
+}
+.craft_btn{
+    background-image: url("../img/crafting.png");
+    background-size: 30px;
+    background-position: 5%, 50%;
+    background-repeat: no-repeat;
+}
+.farm_btn{
+    background-image: url("../img/farm.png");
+    background-size: 30px;
+    background-position: 5%, 50%;
+    background-repeat: no-repeat;
+}
+.gvg_btn{
+    background-image: url("../img/gvg.png");
+    background-size: 30px;
+    background-position: 5%, 50%;
+    background-repeat: no-repeat;
+}
+.account_btn{
+    background-image: url("../img/user.png");
+    background-size: 30px;
+    background-position: 5%, 50%;
+    background-repeat: no-repeat;
+}
+#home{
+    visibility: visible;
+}
+#gather{
+    visibility: hidden;
+}
+#craft{
+    visibility: hidden;
+}
+#farm{
+    visibility: hidden;
+}
+#gvg{
+    visibility: hidden;
+}
+#account{
+    visibility: hidden;
+}
+.chart{
+    height: 30%;
+    width: 30%;
+}
+table{
+    position: absolute;
+    text-align: left;
+    top: 5%;
+    width: 50%;
+    height: 20%;
+    overflow-y: scroll;
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.2); 
+    font-size: 18px; 
+}
+.search{
+    position: absolute;
+    background-image: url("../img/search.png");
+    background-size: 20px;
+    background-position: 5px, 5px;
+    padding-left: 40px;
+    background-repeat: no-repeat; 
+    left: 0px;
+    height: 5%;
+    width: 50%;
+
+}
+#HomeGatheringChart{
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+#HomeGatheringTiersChart{
+    position: absolute;
+    right: 0px;
+    top: 350px;
+}
+#HomeCraftingChart{
+    position: absolute;
+    right: 250px;
+    top: 100px;
+}
+#HomeCraftingTiersChart{
+    position: absolute;
+    right: 250px;
+    top: 350px;
+}
+#HomeFarmingChart{
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
+#HomeFarmingTiersChart{
+    position: absolute;
+    right: 500px;
+    top: 350px;
+}
+#HomePlayerChart{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 40%;
+    width: 40%;
+}
+#HomePlayerTiersChart{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    height: 40%;
+    width: 40%;
+}
+#GatheringChart, #CraftingChart, #FarmingChart, #PlayerChart{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 40%;
+    width: 40%;
+}
+#GatheringTiersChart, #CraftingTiersChart, #FarmingTiersChart, #PlayerTiersChart{
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    height: 40%;
+    width: 40%;
+}
